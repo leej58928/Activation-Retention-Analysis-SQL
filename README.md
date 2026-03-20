@@ -1,4 +1,4 @@
-Activation & Retention Analysis (SQL)
+#Activation & Retention Analysis (SQL)
 
 ## Project Overview
 This project analyzes how early user activation behavior influences 30-day retention using a structured SQL analytics pipeline.
