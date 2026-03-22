@@ -73,10 +73,6 @@ This structure reflects how analytics teams build **reusable data layers**, rath
 
 ---
 
-## 📊 Tableau Dashboard
-<img width="1197" height="854" alt="image" src="https://github.com/user-attachments/assets/f4bc1c37-bc62-429d-9133-9ad9ad5cbdf8" />
-
-
 ### Dashboard Preview
 ![Dashboard](./dashboard.png)
 
