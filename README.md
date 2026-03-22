@@ -73,6 +73,25 @@ This structure reflects how analytics teams build **reusable data layers**, rath
 
 ---
 
+## 📊 Tableau Dashboard
+<img width="1197" height="854" alt="image" src="https://github.com/user-attachments/assets/f4bc1c37-bc62-429d-9133-9ad9ad5cbdf8" />
+
+
+### Dashboard Preview
+![Dashboard](./dashboard.png)
+
+The Tableau dashboard translates the SQL analysis into a business-facing view of activation and retention performance.
+
+It highlights:
+
+- Overall activation and retention KPIs  
+- Retention differences between activated and non-activated users  
+- The relationship between early engagement (number of core events) and retention  
+
+This visualization layer bridges the gap between data transformation and decision-making, enabling stakeholders to quickly understand how early user behavior impacts long-term outcomes.
+
+---
+
 ## Key Results
 
 | Activation Status | Users | Retained Users | 30-Day Retention Rate |
@@ -100,4 +119,5 @@ Product teams can improve retention by:
 ---
 
 ## Tools
-- SQL (BigQuery-style views, aggregations, conditional logic)
+- SQL (BigQuery-style views, aggregations, conditional logic)  
+- Tableau (dashboard visualization for activation and retention analysis
