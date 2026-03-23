@@ -4,13 +4,15 @@
 
 - Activated users: **65.1% 30-day retention** (175 / 269)
 - Non-activated users: **25.0% retention** (183 / 731)
-- Early activation is associated with a **40+ percentage point increase** in retention
+- Early activation is associated with a **40+ percentage point increase** in retention, making it a critical lever for improving user retention
 
 ---
 
 ## Project Overview
 
-This project examines how early user activation within the first 7 days impacts long-term retention.
+This project analyzes how early user activation within the first 7 days drives long-term retention.
+
+Users who complete key activation behaviors early are significantly more likely to remain active after 30 days, highlighting activation as a critical lever for product growth.
 
 The analysis shows that users who complete key activation behaviors early are significantly more likely to remain active after 30 days, highlighting activation as a critical driver of product retention.
 
@@ -24,9 +26,9 @@ Do users who complete key activation behaviors within the first 7 days show high
 
 ## Approach
 
-- Built a layered SQL pipeline to transform raw event data into activation and retention metrics  
-- Defined activation based on meaningful early engagement (core feature usage + repeat activity)  
-- Compared 30-day retention outcomes between activated and non-activated users  
+- Structured raw event data into a reusable SQL pipeline to enable consistent activation and retention measurement  
+- Defined activation using both depth (core feature usage) and frequency (active days) to capture meaningful engagement  
+- Evaluated whether early activation behavior leads to higher long-term retention by comparing user cohorts
 
 ---
 
@@ -52,14 +54,14 @@ The analysis is implemented as a structured set of SQL views:
 5. **Final Summary**  
    Compares retention outcomes by activation status  
 
-This structure reflects how analytics teams build reusable data layers rather than relying on one-off queries.
+This structure reflects how analytics teams build reusable data layers to support consistent metric definitions and scalable analysis.
 
 ---
 
 ## Dashboard
 ![Dashboard](./dashboard.png)
 
-The Tableau dashboard presents:
+The Tableau dashboard translates the SQL analysis into a business-facing view of activation and retention performance:
 
 - Activation and retention KPIs  
 - Retention differences between activated and non-activated users  
@@ -69,9 +71,9 @@ The Tableau dashboard presents:
 
 ## Product Implications
 
-- Prioritize onboarding flows that drive early core feature usage  
-- Encourage repeat engagement within the first week  
-- Identify and target non-activated users early  
+- Improve onboarding flows to drive early core feature adoption  
+- Encourage repeat engagement within the first week to reinforce user habits  
+- Identify and intervene on non-activated users before churn risk increases  
 
 ---
 
